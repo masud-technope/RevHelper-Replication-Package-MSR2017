@@ -1,4 +1,4 @@
-## Predicting Usefulness of Code Review Comments using Textual Features and Developer Experience
+# Predicting Usefulness of Code Review Comments using Textual Features and Developer Experience
 
 Accepted Paper at MSR 2017
 -------------------------------------------
@@ -8,7 +8,7 @@ Mohammad Masudur Rahman, Chanchal K. Roy, and Raula G. Kula
 ```
 
 
-**Abstract:**  Although peer code review is widely adopted in both commercial and open source development, existing studies suggest that such code reviews often contain a significant amount of non-useful review comments. Unfortunately, to date, no tools or techniques exist that can provide automatic support in improving those non-useful comments. In this paper, we first report a comparative study between useful and nonuseful review comments where we contrast between them using their textual characteristics and reviewers’ experience. Then, based on the findings from the study, we develop RevHelper, a prediction model that can help the developers improve their code review comments through automatic prediction of their usefulness during review submission. Comparative study using 1,116 review comments suggested that useful comments share more vocabularies with the changed code, contain salient items like relevant code elements, and their reviewers are generally more experienced. Experiments using 1,482 review comments report that our model can predict comment usefulness with 66% prediction accuracy which is promising. Comparison with three variants of a baseline model using a case study validates our empirical findings and demonstrates the potential of our model.
+**Abstract:**  Although peer code review is widely adopted in both commercial and open source development, existing studies suggest that such code reviews often contain a significant amount of non-useful review comments. Unfortunately, to date, no tools or techniques exist that can provide automatic support in improving those non-useful comments. In this paper, we first report a comparative study between useful and nonuseful review comments where we contrast between them using their textual characteristics and reviewersâ€™ experience. Then, based on the findings from the study, we develop RevHelper, a prediction model that can help the developers improve their code review comments through automatic prediction of their usefulness during review submission. Comparative study using 1,116 review comments suggested that useful comments share more vocabularies with the changed code, contain salient items like relevant code elements, and their reviewers are generally more experienced. Experiments using 1,482 review comments report that our model can predict comment usefulness with 66% prediction accuracy which is promising. Comparison with three variants of a baseline model using a case study validates our empirical findings and demonstrates the potential of our model.
 
 Comparative Study
 -----------------------------------
