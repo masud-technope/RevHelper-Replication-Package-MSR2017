@@ -70,7 +70,6 @@ for(i in 200:209){
   
   #showing model performance for each run
   print(c(cm$byClass['Pos Pred Value'],cm$byClass['Sensitivity'],cm$byClass['Neg Pred Value'],cm$byClass['Specificity'],cm$overall['Accuracy']) ) 
-  
 }
 
 #showing the average performance
